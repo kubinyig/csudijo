@@ -44,28 +44,77 @@
 
     <div class="container">
         <!-- Rólunk -->
-        <section id="rolunk">
+        <section class="rolunk">
             <h2>Rólunk</h2>
 
-            <p>
+            <p class="p">
                 A Csudijó Étterem, Magyarország egyik legszebb vidékén, a festői Pitypangtövis hegy lábánál csörgedező Csicseri patak partján található. A fáradt utazó nálunk megtalálhatja mindazt, amire vágyik: kiváló ételeink Mindróf Benedek mesterszakácsunk kifinomult
                 ízvilágát dicsérik, a desszerteket a környék méltán világhíres Mézmanna cukrászata szállítja számunkra, a helyben készült pitypangtövisi kézműves sörök telt aromája pedig rabul ejti kostolójukat. Ha nem csak egy mennyei ebédre látogat meg
                 minket, hanem szívesen időzne még a környék mesebéli tájain, akkor panziónkban minden igényt kielégítő otthonos apartmanjaink várják a családokat, párokat vagy épp a magányos vándort. Térjen be hozzánk, hogy vendéglátásunkkal Önnek is
                 Csudijó napot varázsolhassunk!
             </p>
+            <img id="csicseri_img" src=" kepek/csicseri.jpg" alt="Csicseri patak" hover="Csicseri patak">
         </section>
 
         <!-- Étlap -->
         <section id="etlap" class="szurke-hatter">
             <h2>Ízelítő étlapunkról</h2>
             <!-- Étel kártyák -->
+            <div class="card md-col-6 lg-col-6">
+                <img src="kepek/etlap1.jpg" class="card-img-top  md-col-6 lg-col-6" alt="img">
+                <div class="card-body">
+                    <div class="card-title">TEJSZÍNES-MUSTÁROS CSIRKE ALMÁVAL</div>
+                    <div class="card-text">A csirkét vajon megpirítjuk, sóval és borssal ízesítjük. Hozzáadjuk 
+                        a megtisztított hagymát, a feldarabolt zellert, és néhány percig együtt pirítjuk, 
+                        majd felöntjük a borral és az alaplével. A kimagozott, gerezdekre vágott almákat megpirítjuk. 
+                        Tejszínes kukoricalisztet, mustárt és a tárkonyt keverve a pecsenyeléhez mártást készítünk. 
+                        A hús-, a zöldség- és az alma darabokat beleforgatjuk a mártásba, majd forrón, friss kenyérrel kínáljuk.
+                        </div>
+                </div>
+            </div>
+
+            <div class="card  md-col-6 lg-col-6">
+                <img src="kepek/etlap2.jpg" class="card-img-top md-col-6 lg-col-6" alt="img">
+                <div class="card-body">
+                    <div class="card-title">LECSÓ KOLBÁSZCSIPSSZEL</div>
+                    <div class="card-text">A hajszálvékonyra szeletelt kolbászt forró serpenyőben ropogósra sütjük. Kolbászzsíron megfonnyasztjuk 
+                        az apróra vágott vöröshagymát, majd megszórjuk és elkeverjük a pirospaprikával. Feldarabolt paprikát és 
+                        paradicsomot adunk hozzá. Megsózzuk, megborsozzuk ízlés szerint. A frissen elkészült lecsót a ropogós 
+                        kolbászcsipsszel megszórva tálaljuk, friss kenyeret és főtt rizst kínálunk mellé.
+                        </div>
+                </div>
+            </div>
+
+            <div class="card md-col-6 lg-col-6">
+                <img src="kepek/etlap3.jpg" class="card-img-top md-col-6 lg-col-6" alt="img">
+                <div class="card-body">
+                    <div class="card-title">BÖGRÉBEN SÜLT PARADICSOMOS TÉSZTA</div>
+                    <div class="card-text">A tésztát kifőzzük, leszűrjük, és olívaolajjal összekeverjük. Egy bögrébep izzaszószt kanalazunk, 
+                        megszórjuk felkockázott mozzarellával, felaprított bazsalikommal, majd ismét paradicsomszószt és mozzarellát teszünk rá. 
+                        A kifőtt tésztával körberakjuk az edényünket, meglocsoljuk paradicsomszósszal, majd sütőbe rakjuk. A kisült a tésztát tányérra 
+                        borítjuk és forrón tálaljuk.
+                        </div>
+                </div>
+            </div>
+
+            <div class="card md-col-6 lg-col-6">
+                <img src="kepek/etlap4.jpg" class="card-img-top md-col-6 lg-col-6" alt="img">
+                <div class="card-body">
+                    <div class="card-title">TORTELLINIS PARADICSOMLEVES</div>
+                    <div class="card-text">Lábasban olívaolajon megfonnyasztjuk a kétféle felpirított hagymát, és babérleveleket adunk hozzá.
+                        A hagymás keverékbe forgatjuk a darabolt paradicsomot, lecsipkedett bazsalikom leveleket adunk hozzá, sózzuk, borsozzuk.
+                        A levest joghurttal dúsítjuk és tortellinivel gazdagítjuk.  Melegen, egy kevés aprított bazsalikommal és leforgácsolt parmezánnal megszórva tálaljuk.
+                        </div>
+                </div>
+            </div>
+
         </section>
 
         <!-- Legnépszerűbb -->
         <section class="legnepszerubb">
 
             <h2>Legnépszerűbb étel az étlapunkról az elmúlt évben</h2>
-            <p id="legnepszerubb">
+            <p id="legnepszerubb" class="p">
 
             </p>
         </section>
@@ -73,7 +122,7 @@
         <!-- Vendégkönyv -->
         <section id="vendegkonyv" class="szurke-hatter">
             <h2>Vendégkönyv</h2>
-            <p>Ossza meg másokkal, hogy mi tetszett nálunk, és mondja el nekünk, hogy mivel tehetnénk még kellemesebbé itt létét legközelebb!</p>
+            <p class="p">Ossza meg másokkal, hogy mi tetszett nálunk, és mondja el nekünk, hogy mivel tehetnénk még kellemesebbé itt létét legközelebb!</p>
             <form>
                 <div class="form-group">
                     <label for="bejegyzes">Bejegyzés:</label>
